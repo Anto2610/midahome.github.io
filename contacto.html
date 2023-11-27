@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+   <div class="head">
+    <div class="logo">
+        <br>
+        <img src="../img/Logo1.png" alt="logo" style="width: 90px; height: 90px;">
+        <ul class="nav-menu">
+            <a href="index.html"><strong>Home</strong></a>
+            <a href="empresa.html"><strong>Empresa</strong></a>
+            <a href="productos.html"><strong>Productos</strong></a>
+            <a href="contacto.html"><strong>Contacto</strong></a>
+            <style>
+                          .nav-menu {
+    height: 100%;
+    top: 0;
+    margin: 5px;
+    float: right;
+    display: flex;
+    flex-direction: wrap;
+                    }
+
+                    .nav-menu ul {
+    list-style: none;
+    overflow: hidden;
+       
+  }
+  
+
+    
+.nav-menu a {
+    float: right;
+    padding:5px 10px;
+    color: #a223ec;
+    text-decoration: none;
+    
+  }
+  nav ul li:hover {
+    background: #a223ec;
+  }
+            </style>  
+        </ul>
+          
+    </div>
+    
+    </label>
+
+</nav>
+<section>
+<div class="form-content">
+
+    <h2>Contacto</h2>
+
+    <form action="https://formsubmit.co/antonellamartin2610@gmail.com" method="POST">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" id="email">
+
+        <label for="coments">Comentarios</label>
+        <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+
+        <input class="btn" type="submit" value="Enviar">
+
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            
+
+            }
+
+
+            .form-content {
+                background: linear-gradient(
+                    50deg,
+                    rgba(40,42,55,1) 40%,
+                    rgba(40,42,55,0.7)),
+                    url(../img/green-leafs-concept-with-copy-space.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding: 50px;
+                    width: 600px;
+                    border-radius: 25px;
+                    
+                  
+
+            }
+
+            .form-content h2 {
+                color: darkviolet;
+                font-size: 30px;
+                margin-bottom: 20px;
+            
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
+            
+            label {
+                font-size: 17px;
+                color: white;
+                margin-bottom: 10px;
+            }
+
+            input , textarea {
+                padding: 17px 14px;
+                background-color: rgb(150, 150, 150);
+                border: 0;
+                font-size: 15px;
+                color: floralwhite;
+                margin-bottom: 20px;
+                border-radius: 10px;
+
+            }
+
+            :focus {
+                outline: 1px solid green;
+
+            }
+
+            .btn {
+                background-color: #a223ec;
+                width: 150px;
+                align-self: flex-end;
+                cursor: pointer;
+            }
+
+            .btn:hover {
+                background-color: blueviolet;
+
+            }
+
+            @media(max-width:991px) {
+                body {
+                    padding: 30px;
+                }
+                .form-content {
+                    width: 100%;
+            
+                }
+                form { 
+                    width: 100%;
+                }
+            }
+        </style>
+     
+    </form>
+</section>
+<br>
+
+    <section>
+                   
+        <div class="footer">
+            <footer class="footer">
+                <div class="grupo1">
+                <div class="box">
+                    <h3>Sobre Nosotros</h3>
+                    <p>En nuestro estudio/taller de Belgrano producimos velas hechas a mano, difusores, sprays ambientales y otros productos que nos conectan con aromas cuidadosamente seleccionados, que nos hacen viajar a nuestros sentidos más profundos.</p>
+                </div>
+                <div class="box">
+                    <h3>Contacto</h3>
+                    <div class="contacto">
+                        <a href="https://wa.me/5491150401293?text=Hola quiero información de su negocio" target="_blank"> <img src="../img/whatsappline.png"></a>
+                        <a href="https://www.instagram.com/midahomeok/" target="_blank"><img src="../img/instagramline.png">
+                    </div>
+                </div>
+                <div class="grupo2">
+                    <small>&copy;2023 <b>Mida Home</b> - Todos los Derechos Reservados</small>
+                </div>
+            
+           
+    
+            <style>
+                
+    .footer{
+        width: 100%;
+        background-color:#e6cbf6;
+    }
+    
+    .footer .grupo1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    
+    .footer .grupo1 .box h3{
+        color:black;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    
+    .footer .grupo1 .box1 p{
+        color:black;
+        margin-bottom: 10px;
+    }
+    
+    .footer .grupo1 .contacto a {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color:black;
+        margin-right: 10px;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+    
+    .footer .grupo1 .contacto a:hover{
+        color: aqua;
+    }
+    
+            </style></div>
+        </section>
+    
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

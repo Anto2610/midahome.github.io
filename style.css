@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt {
+   text-align: center;
+    color: rgb(255, 255, 255);
+       
+
+}
+
+.banner-textcontainer {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/imagen_de_portada2.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+
+ 
+.nav-menu {
+    height: 100%;
+    top: 0;
+    margin: 5px;
+    float: right;
+    display: flex;
+    flex-direction: wrap;
+   
+  
+  }
+
+
+  
+.nav-menu ul {
+    list-style: none;
+    overflow: hidden;
+       
+  }
+  
+
+    
+.nav-menu a {
+    float: right;
+    padding:5px 10px;
+    color: #a223ec;
+    text-decoration: none;
+    
+  }
+  nav ul li:hover {
+    background: #a223ec;
+  }
+
+  .btn-a {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(184, 104, 231);
+    padding: 10px 15px;
+    font-size: 15px;
+    }
+ 
+
+    
+
+
+
+.content-header {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.content-header h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.btn-home {
+    display: inline-block;
+    margin: 35px 0px;
+    padding: 10px 25px; 
+    border: 2px solid #a223ec;
+    color: #fff;
+
+}
+
+.descripcion {
+    background-color: #a223ec;
+    padding: 30px 0px;
+}
+
+.descripcion-container {
+    display: flex;
+    flex-direction:column
+
+}
+
+.descripcion-card {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 15px;
+    margin: 0px 15px;
+    padding: 20px 35px;
+
+}
+
+.descripcion-text {
+    margin-left: 0px;
+    text-align: center;
+
+}
+
+.descripcion-txt h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.descripcion-txt p {
+    font-size: 15px;
+    color:#fff;
+    margin-right: 0px;
+}
+
+.footer{
+    width: 100%;
+    background-color:#e6cbf6;
+}
+
+.footer .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.footer .grupo1 .box h3{
+    color:black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer .grupo1 .box1 p{
+    color:black;
+    margin-bottom: 10px;
+}
+
+.footer .grupo1 .contacto a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:black;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .grupo1 .contacto a:hover{
+    color: aqua;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
