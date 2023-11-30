@@ -184,6 +184,11 @@ body {
     color: aqua;
 }
 
+.footer .grupo2 {
+     text-align: center;
+    justify-content: right;
+}
+
 .wrap{
     width: 100%;
     height: 100%;
