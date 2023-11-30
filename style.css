@@ -105,6 +105,7 @@ body {
 .descripcion-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 
 }
