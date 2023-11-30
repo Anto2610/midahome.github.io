@@ -104,7 +104,8 @@ body {
 
 .descripcion-container {
     display: flex;
-    flex-direction:column
+    flex-direction: row;
+    
 
 }
 
